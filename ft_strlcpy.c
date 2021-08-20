@@ -6,7 +6,7 @@
 /*   By: carlosed <carlosed@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/10 18:19:51 by carlosed          #+#    #+#             */
-/*   Updated: 2021/08/10 18:20:49 by carlosed         ###   ########.fr       */
+/*   Updated: 2021/08/20 17:39:19 by carlosed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 	size_t	i;
 
 	if (!src)
-		return (0);
+		return (NULL);
 	i = 0;
 	if (size > 0)
 	{
