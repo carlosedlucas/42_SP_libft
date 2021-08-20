@@ -6,7 +6,7 @@
 /*   By: carlosed <carlosed@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/20 16:14:36 by carlosed          #+#    #+#             */
-/*   Updated: 2021/08/20 17:32:54 by carlosed         ###   ########.fr       */
+/*   Updated: 2021/08/20 19:28:37 by carlosed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,7 +67,7 @@ void		ft_striteri(char *s, void (*f) (unsigned int, char*));
 
 char		*ft_strjoin(char const *s1, char const *s2);
 
-size_t		ft_strlcat(char *dest, char *src, size_t size);
+size_t		ft_strlcat(char *dst, const char *src, size_t size);
 
 size_t		ft_strlcpy(char *dst, const char *src, size_t size);
 
