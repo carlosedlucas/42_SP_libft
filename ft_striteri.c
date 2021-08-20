@@ -6,7 +6,7 @@
 /*   By: carlosed <carlosed@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/20 14:13:02 by carlosed          #+#    #+#             */
-/*   Updated: 2021/08/20 14:35:04 by carlosed         ###   ########.fr       */
+/*   Updated: 2021/08/20 17:15:03 by carlosed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,9 @@ char	ft_striteri(char *s, void (*f) (unsigned int, char))
 	{
 		while (s[i])
 		{
-			f(i, &s[i]);
+			f(i, s[i]);
 			i++;
 		}
 	}
+	return (0);
 }
