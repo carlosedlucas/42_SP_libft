@@ -6,7 +6,7 @@
 /*   By: carlosed <carlosed@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/20 16:14:36 by carlosed          #+#    #+#             */
-/*   Updated: 2021/08/20 16:28:14 by carlosed         ###   ########.fr       */
+/*   Updated: 2021/08/20 17:32:54 by carlosed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,7 +63,7 @@ char		**ft_split(char const *s, char c);
 
 char		*ft_strdup(const char *s1);
 
-char		ft_striteri(char *s, void (*f) (unsigned int, char));
+void		ft_striteri(char *s, void (*f) (unsigned int, char*));
 
 char		*ft_strjoin(char const *s1, char const *s2);
 
