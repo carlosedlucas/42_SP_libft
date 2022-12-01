@@ -5,5 +5,3 @@ Links de testes
 2- https://github.com/Tripouille/libftTester
 3- https://github.com/jtoty/Libftest
 4- https://github.com/alelievr/libft-unit-test
-
-Readme em produção
