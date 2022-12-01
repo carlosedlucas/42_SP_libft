@@ -1,4 +1,4 @@
-# Projeto libft- 42 São Paulo
+# Projeto Linguagem C - libft - 42 São Paulo
 
 Links de testes
 1- https://github.com/ska42/libft-war-machine
